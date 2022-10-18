@@ -1,0 +1,17 @@
+spring:
+  data:
+    mongodb:
+      username: douyin
+      password: "123456"
+      host: 192.168.150.130
+      port: 27017
+      database: Crapsc
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.150.130:8848
+  application:
+    name: opusServer
+
+server:
+  port: 10001

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="UserServer" />
+        <module name="douyin" />
+        <module name="CommentServer" />
+        <module name="GatewayServer" />
+        <module name="OpusServer" />
+        <module name="Common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CommentServer" target="16" />
+      <module name="Common" target="16" />
+      <module name="douyin" target="1.5" />
+      <module name="GatewayServer" target="16" />
+      <module name="OpusServer" target="16" />
+      <module name="UserServer" target="16" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CommentServer" options="-parameters" />
+      <module name="Common" options="-parameters" />
+      <module name="GatewayServer" options="-parameters" />
+      <module name="OpusServer" options="-parameters" />
+      <module name="UserServer" options="-parameters" />
+      <module name="douyin" options="" />
+    </option>
+  </component>
+</project>

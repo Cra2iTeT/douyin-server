@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.150.130:8848
+    gateway:
+      routes:
+        - id: userServer
+          uri: lb://userServer
+          predicates:
+            - Path=/user/**
+#          filters:
+#            - RewritePath=/user/(?<segment>/?.*),/$\{segment}
+
+  application:
+    name: gateway
+
+
+server:
+  port: 88

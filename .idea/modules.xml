@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CommentServer/CommentServer.iml" filepath="$PROJECT_DIR$/CommentServer/CommentServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Common/Common.iml" filepath="$PROJECT_DIR$/Common/Common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GateWayServer/GatewayServer.iml" filepath="$PROJECT_DIR$/GateWayServer/GatewayServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpusServer/OpusServer.iml" filepath="$PROJECT_DIR$/OpusServer/OpusServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserServer/UserServer.iml" filepath="$PROJECT_DIR$/UserServer/UserServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/douyin.iml" filepath="$PROJECT_DIR$/douyin.iml" />
+    </modules>
+  </component>
+</project>
